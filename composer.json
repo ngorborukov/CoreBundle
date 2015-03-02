@@ -1,0 +1,30 @@
+{
+  "name" : "rupr/corebundle",
+  "description" : "A demo bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "demo",
+    "email" : "demo@company.com"
+  }],
+  "keywords" : [
+    "demo bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Rupr\\CoreBundle" : ""
+    }
+  },
+  "target-dir" : "Rupr/DemoBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "master"
+    }
+  }
+}
